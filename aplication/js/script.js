@@ -1,5 +1,5 @@
 function converterMoeda(){
-    const valorInserido = document.querySelector('input');
+    const valorInserido = document.querySelector('#valor_entrada_usuario');
     const moedaSelecionada = document.querySelector('select');
 
     if (moedaSelecionada == 'Dolar') {
