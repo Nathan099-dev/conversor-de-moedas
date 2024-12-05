@@ -31,13 +31,31 @@ html, body{
     font-style: italic;
 }
 
+.valor-usuario-input input {
+    width: 500px;
+    padding: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
 .inputs{
     display: flex;
-    padding: 10px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .inputs .input-moeda-entrada{
     margin-right: 20px;
+}
+
+.input-moeda-entrada select{
+    padding: 3px 4px;
+}
+
+.input-moeda-saída select{
+    padding: 3px 4px;
 }
 
 
