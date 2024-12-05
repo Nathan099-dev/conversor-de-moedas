@@ -4,3 +4,65 @@
     box-sizing: border-box;
 }
 
+html, body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border: 1px solid purple;
+    box-shadow: 1px 5px 5px 3px rgba(0, 0, 0, .4);
+    padding: 2rem;
+}
+
+.box h2{
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.inputs{
+    display: flex;
+    padding: 10px;
+}
+
+.inputs .input-moeda-entrada{
+    margin-right: 20px;
+}
+
+
+.div-resultado-moeda-convertida input{
+    margin-top: 50px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+.btn-converter{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.btn-converter button{
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+
+.btn-converter button:hover{
+    background-color: #282828;
+    border: 1px solid purple;
+    transition: .7s;
+}
