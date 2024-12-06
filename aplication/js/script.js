@@ -1,12 +1,17 @@
 function converterMoeda(){
-    const valorInserido = document.querySelector('#valor_entrada_usuario');
-    const moedaSelecionada = document.querySelector('select');
+    const entradaValor = document.querySelector('#valor_entrada_usuario');
+    const selecionarMoeda = document.querySelector('option');
+    const valorConvertido = document.querySelector('#resultado_valor_convertido');
 
-    if (moedaSelecionada == 'Dolar') {
-        valorInserido * 6.01
+    const valorDolar = 6.01;
+    const valorEuro = 6.37;
 
-    }else if (moedaSelecionada == 'Euro') {
-        valorInserido * 6.37
+    if (selecionarMoeda == 'Dolar') {
+        let calculoDolar = entradaValor * valorDolar;
+        valorConvertido.innerHTML = `O valor total em dolar é de ${calculoDolar}`;
+
+    }else if (selecionarMoeda == 'Euro') {
+        let calculoEuro = entradaValor * valorEuro;
+        valorConvertido.innerHTML = `O valor total em euro é de ${calculoEuro}`;
     }
-
 }
