@@ -49,6 +49,12 @@ html, body{
     
 }
 
+.resultado_valor{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .inputs .input-moeda-entrada{
     margin-right: 20px;
 }
